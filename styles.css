@@ -1,0 +1,47 @@
+/* add your CSS here */
+
+.card,
+.card__inner {
+    border: 1px solid lightgrey;
+}
+
+.card {
+    margin: 15px;
+    padding: 0 15px 15px 15px;
+}
+
+.card__inner {
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-style: italic;
+    margin: 0;
+}
+
+.card ul {
+    padding-left: 0;
+}
+
+.card ul li {
+    list-style-type: none;
+}
+
+.card ul li span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card ul+p {
+    font-style: normal;
+    margin-bottom: 15px;
+}
