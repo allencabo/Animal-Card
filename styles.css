@@ -1,11 +1,11 @@
 /* add your CSS here */
 
-.card,
-.card__inner {
+.border {
     border: 1px solid lightgrey;
 }
 
 .card {
+	width: 300px;
     margin: 15px;
     padding: 0 15px 15px 15px;
 }
@@ -20,7 +20,7 @@
 }
 
 .card img {
-    width: 100%;
+    width: 300px;
 }
 
 .card p {
